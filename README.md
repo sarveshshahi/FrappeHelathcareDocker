@@ -287,3 +287,16 @@ Feel free to contribute or report issues! ✨
 
 Happy Coding! 🎉
 
+
+docker exec -it erpnext_docker-backend-1 bash
+bench build
+
+
+Rebuild the Docker Image
+If the issue persists, rebuild the Docker image to ensure all dependencies are correctly installed:
+docker-compose down
+docker-compose up -d --build
+
+
+
+
